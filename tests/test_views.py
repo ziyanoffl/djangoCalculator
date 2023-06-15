@@ -3,7 +3,8 @@ from django.urls import reverse
 
 from djangoCalculator.views import home, calculate
 
-class ViewsTestCase(TestCase):
+
+class TestViews(TestCase):
     def setUp(self):
         self.factory = RequestFactory()
 
